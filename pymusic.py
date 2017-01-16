@@ -54,7 +54,8 @@ def louder():
     if volume < .9:
         volume +=.1
         mixer.music.set_volume(volume)
-    print "Volume: "+ volume
+    print "Volume: ",
+    print volume
 def softer():
     global volume
     if volume >= 0.1:
@@ -63,7 +64,8 @@ def softer():
     else:
         volume=0
         mixer.music.set_volume(volume)
-    print "Volume: "+volume
+    print "Volume: ",
+    print volume
 
 #Exit
 def exit1():
