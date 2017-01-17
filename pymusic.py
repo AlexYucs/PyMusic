@@ -141,7 +141,8 @@ window.overrideredirect(1)
 
 window.resizable(0,0)
 window.attributes("-topmost",1)
-#window.mainloop()
+
+#replace mainloop()
 while True:
     window.update_idletasks()
     window.update()
